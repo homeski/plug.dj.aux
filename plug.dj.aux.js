@@ -1,6 +1,6 @@
 javascript:(function(){
 	// Woot when the bookmark is clicked
-	$('woot').click();
+	$('#woot').click();
 
 	// Woot on song change
 	API.on(API.ADVANCE, function(e) { 
