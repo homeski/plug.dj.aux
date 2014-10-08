@@ -1,6 +1,6 @@
 # plug.dj.aux
 
-**plug.dj.aux** is a minimal browser javascript bookmarklet to improve the plug.dj user experience.
+**plug.dj.aux** is a minimal browser bookmarklet to improve the plug.dj user experience.
 
 Simply add it to your bookmarks bar and click it when you enter a room. It'll add some neat features to make your life easier! 
 
