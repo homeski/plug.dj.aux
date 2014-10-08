@@ -7,10 +7,21 @@ javascript:(function(){
 		$('#woot').click(); 
 	});
 
-	// Enable spacebar mute
+	// Key listeners
 	$(document).keypress(function(e) {
-		if (e.which == 32 && $(':focus').is('input') == false) {
-			$('#volume > .button').click();
+		if ($(':focus').is('input') == true) {
+			return;
+		}
+
+		switch (e.which) {
+			case 32: // spacebar
+				$('#volume > .button').click();
+				break;
+			case 103: // g
+				$('#grab').click();
+				$('.grab > .menu > ul > li > .icon-active-active').parent().mousedown();
+				break;
+			default:
 		}
 	});	
 })();
