@@ -7,7 +7,8 @@ Simply add it to your bookmarks bar and click it when you enter a room. It'll ad
 ## What functionality does it add?
 
 * Press `spacebar` to mute/unmute the audio as long as you are not typing into an input (e.g. while chatting).
-* All songs played will automatically be auto-wooted
+* Press `g` to grab the current song to the currently active playlist. 
+* All songs played will automatically be auto-wooted.
 
 ## How do I use it? 
 
