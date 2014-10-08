@@ -9,17 +9,18 @@ javascript:(function(){
 
 	// Key listeners
 	$(document).keypress(function(e) {
-		if ($(':focus').is('input') == true) {
+		if ($(':focus').is('input') == true)
 			return;
-		}
 
 		switch (e.which) {
 			case 32: // spacebar
 				$('#volume > .button').click();
 				break;
 			case 103: // g
-				$('#grab').click();
-				$('.grab > .menu > ul > li > .icon-active-active').parent().mousedown();
+				if ($('#grab.selected').length < 1) {
+					$('#grab').click();
+					$('.grab > .menu > ul > li > .icon-active-active').parent().mousedown();
+				}
 				break;
 			default:
 		}
