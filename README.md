@@ -14,7 +14,7 @@ Simply add it to your bookmarks bar and click it when you enter a room. It'll ad
 1. Add a new bookmark to chrome named whatever you like and copy, paste this as the url: 
 
 ```js
-javascript:(function(){$.getScript('http://rawgit.com/homeski/plug.dj.aux/master/plug.dj.aux.js');}());
+javascript:(function(){$.getScript('https://rawgit.com/homeski/plug.dj.aux/master/plug.dj.aux.js');}());
 ```
 
 2. Click the bookmark when you enter a plug.dj chatroom.
