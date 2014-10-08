@@ -1,6 +1,6 @@
 # plug.dj.aux
 
-**plug.dj.aux** is a minimal chrome extension to improve the plug.dj user experience.
+**plug.dj.aux** is a minimal browser javascript bookmarklet to improve the plug.dj user experience.
 
 Simply add it to your bookmarks bar and click it when you enter a room. It'll add some neat features to make your life easier! 
 
@@ -11,10 +11,15 @@ Simply add it to your bookmarks bar and click it when you enter a room. It'll ad
 
 ## How do I use it? 
 
-1. Add a new bookmark to chrome named whatever you like and copy, paste this as the url: 
+1. Add a new bookmark to browser named whatever you like and copy, paste this as the url: 
 
+* Chrome
 ```js
 javascript:(function(){$.getScript('https://cdn.rawgit.com/homeski/plug.dj.aux/master/plug.dj.aux.js');}());
+```
+* Firefox
+```js
+javascript:(function()%7B%24.getScript(%27https%3A%2F%2Fcdn.rawgit.com%2Fhomeski%2Fplug.dj.aux%2Fmaster%2Fplug.dj.aux.js%27)%3B%7D())
 ```
 
 2. Click the bookmark when you enter a plug.dj chatroom.
