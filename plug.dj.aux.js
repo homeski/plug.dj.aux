@@ -7,7 +7,7 @@ javascript:(function(){
 		$('#woot').click(); 
 
 		// Change title bar to current song info
-		$(document).prop('title', API.getMedia().author + ": " + API.getMedia().title);
+		$(document).prop('title', API.getMedia().author + " - " + API.getMedia().title);
 	});
 
 	// Key listeners
