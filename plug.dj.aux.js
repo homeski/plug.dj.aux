@@ -5,6 +5,9 @@ javascript:(function(){
 	// Woot on song change
 	API.on(API.ADVANCE, function(e) { 
 		$('#woot').click(); 
+
+		// Change title bar to current song info
+		$(document).prop('title', API.getMedia().author + ": " + API.getMedia().title);
 	});
 
 	// Key listeners
