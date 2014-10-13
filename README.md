@@ -17,11 +17,11 @@ Simply add it to your bookmarks bar and click it when you enter a room. It'll ad
 
 * Chrome
 ```js
-javascript:(function(){$.getScript('https://cdn.rawgit.com/homeski/plug.dj.aux/master/plug.dj.aux.js');}());
+javascript:(function(){$.getScript('https://rawgithub.com/homeski/plug.dj.aux/master/plug.dj.aux.js');}());
 ```
 * Firefox
 ```js
-javascript:(function()%7B%24.getScript(%27https%3A%2F%2Fcdn.rawgit.com%2Fhomeski%2Fplug.dj.aux%2Fmaster%2Fplug.dj.aux.js%27)%3B%7D())
+javascript:(function()%7B%24.getScript(%27https%3A%2F%2Frawgithub.com%2Fhomeski%2Fplug.dj.aux%2Fmaster%2Fplug.dj.aux.js%27)%3B%7D())
 ```
 
 2. Click the bookmark when you enter a plug.dj chatroom.
