@@ -9,6 +9,7 @@ Simply add it to your bookmarks bar and click it when you enter a room. It'll ad
 * Press `spacebar` to mute/unmute the audio as long as you are not typing into an input (e.g. while chatting).
 * Press `g` to grab the current song to the currently active playlist. 
 * All songs played will automatically be auto-wooted.
+* The page title will be changed to the current song artist and title on song change.
 
 ## How do I use it? 
 
