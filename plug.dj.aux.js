@@ -24,7 +24,7 @@ javascript:(function(){
 				// If song isn't already grabbed
 				if ($('#grab.selected').length < 1) {
 					$('#grab').click();
-					$('.grab > .menu > ul > li > .icon-active-active').parent().mousedown();
+					$('.grab').find('.icon-check-purple').parent().mousedown();
 				}
 				break;
 			default:
